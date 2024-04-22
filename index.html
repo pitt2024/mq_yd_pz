@@ -45,23 +45,24 @@
                         <tbody>
                             <tr>
                                 <td class="px-4 py-2 border-r border-b border-transparent">订单号</td>
-                                <td class="px-4 py-2 text-right font-bold border-b border-transparent" id="orderNo"></td>
+                                <td class="px-4 py-2 text-right font-bold border-b border-transparent">11111</td>
                             </tr>
                             <tr>
                                 <td class="px-4 py-2 border-r border-b border-transparent">充值号码</td>
-                                <td class="px-4 py-2 text-right font-bold border-b border-transparent" id="mobile"></td>
+                                <td class="px-4 py-2 text-right font-bold border-b border-transparent">13800008888</td>
                             </tr>
                             <tr>
                                 <td class="px-4 py-2 border-r border-b border-transparent">支付金额</td>
-                                <td class="px-4 py-2 text-right font-bold border-b border-transparent" id="amount"></td>
+                                <td class="px-4 py-2 text-right font-bold border-b border-transparent">100元</td>
                             </tr>
                             <tr>
                                 <td class="px-4 py-2 border-r border-b border-transparent">到账金额</td>
-                                <td class="px-4 py-2 text-right font-bold border-b border-transparent" id="amount"></td>
+                                <td class="px-4 py-2 text-right font-bold border-b border-transparent">100元</td>
                             </tr>
                             <tr>
                                 <td class="px-4 py-2 border-r border-b border-transparent">到账时间</td>
-                                <td class="px-4 py-2 text-right font-bold border-b border-transparent" id="time"></td>
+                                <td class="px-4 py-2 text-right font-bold border-b border-transparent">2022-01-01
+                                    12:00:00</td>
                             </tr>
                         </tbody>
                     </table>
@@ -73,23 +74,7 @@
         </div>
     </main>
     <script src="./index_files/webpack-d0ceac4fb78a3613.js" async=""></script>
-</body>
-    <script>
-        window.onload = function() {
-            // Parse the URL query parameters
-            var params = new URLSearchParams(window.location.search);
-      
-            // Get data from the URL query string
-            var phone = params.get('mobile');
-            var money = params.get('money');
-            var time = params.get('time');
-            var orderno = params.get('orderNo');
-      
-            document.getElementById('mobile').innerHTML = `${phone}`;
-            document.getElementById('money').innerHTML = `${money}元`;
-            document.getElementById('orderNo').innerHTML = `${orderno}`;
-            document.getElementById('time').innerHTML = `${time}`;
-          };
-      </script>
 
+
+</body>
 </html>
